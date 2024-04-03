@@ -25,7 +25,7 @@ a {
 }
 
 .top img {
-  padding: 0 12px;
+  padding: 0 12px 0 0;
 }
 
 .top h5 {
@@ -38,7 +38,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px;
   height: 30px;
   width: 700px;
   /* margin-bottom: 50px; */
@@ -84,38 +83,116 @@ a {
   align-items: center;
   width: 700px;
   height: 250px;
-  /* margin-bottom: 60px; */
   /* border: 2px solid red; */
 }
 
+
 .container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 600px;
   height: 250px;
-  padding-bottom: 32px;
+  /* gap: 20px; */
+  /* border: 2px solid red; */
 }
 
-.botbox {
-  border: 2px solid #3882F6;
-  font-size: 16px;
-  background: ;
+.txt h2 {
+  height: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #1F2937;
+  /* border: 2px solid red; */
 }
 
 .box {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.box img {
+  border: 3px solid #3882F6;
+  border-radius: 10px;
+  margin: 0 20px;
+  height: 120px;
+  width: 120px;
+}
+
+.box p {
+  text-align: center;
 }
 
 .footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   background: #E5E7EB;
   height: 250px;
   width: 100%;
 }
 
-.footer-link {
+.qoutes {
   display: flex;
+  flex-direction: column;
+  color: #1F2937;
+  font-size: 28px;
+  font-style: italic;
+  margin: 0;
+  padding: 8px;
+  height: 250px;
+  width: 600px;
+  /* border: 2px solid red; */
+}
+
+.qoutes h7 {
+  font-size: 22px;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.qoutes h7 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+.sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 250px;
+}
+
+.bot-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+  background: #3882F6;
+  border-radius: 5px;
+  padding: 30px 70px;
+  width: 600px;
+}
+
+.large {
+  font-weight: bold;
+}
+
+.texttt p {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.btn {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 6px 16px;
+  color: white;
+  background: #3882F6;
 }
